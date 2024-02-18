@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <!-- CONTAINER PRINCIPALE --> 
+  <div class="container">
+    <div class="card-container"> 
 
-  Learning
+      <div class="my-container">
+        <div class="image-illustration"> 
+          <!-- ILLUSTRATION -->
+          <img src="./assets/images/illustration-article.svg" alt="illustration-article">
+        </div> 
+      </div>
 
-  Published 21 Dec 2023
+      <!-- BOUTON LEARNING -->
+      <button> 
+        <a href="https://www.frontendmentor.io/challenges">Learning</a>
+      </button>
 
-  HTML & CSS foundations
+      <p class="date">Published 21 Dec 2023</p> 
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+      <h2>HTML & CSS foundations</h2> 
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <p class="paragraph">These languages are the backbone of every <br> website, defining structure, content, <br> and presentation.</p>
+      <!-- IMAGE PHOTO DE PROFIL --> 
+      <div class="image-profil-container">
+        <div class="image-profil">
+          <img src="./assets/images/image-avatar.webp" alt="image-avatar" class="image-profil-avatar">
+          <div class="name-profil">Greg Hooper</div>
+        </div>
+      </div>
+    </div> 
   </div>
 </body>
 </html>
